@@ -1,0 +1,21 @@
+{
+  "model_name": "google/vit-base-patch16-224-in21k",
+  "train_data_path": "/nfs/home/tgv3756/dlproject/data/resnet_train_data",
+  "val_data_path": "/nfs/home/tgv3756/dlproject/data/resnet_val_data",
+  "output_dir": "./models/ViT/output-models",
+  "batch_size": 16,
+  "num_epochs": 2,
+  "learning_rate": 2e-4,
+  "label_mappings": {
+    "c0": "safe driving",
+    "c1": "texting - right",
+    "c2": "talking on the phone - right",
+    "c3": "texting - left",
+    "c4": "talking on the phone - left",
+    "c5": "operating the radio",
+    "c6": "drinking",
+    "c7": "reaching behind",
+    "c8": "hair and makeup",
+    "c9": "talking to passenger"
+  }
+}
